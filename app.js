@@ -1,3 +1,5 @@
-import Show from "js/script";
+import {URL} from "./js/script.js";
 
-Show("hola");
+fetch(URL)
+    .then((resp)=> resp.json())
+    .then( (json)=> console.log(json.data.results[0].name));
