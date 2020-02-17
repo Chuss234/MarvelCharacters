@@ -1,0 +1,33 @@
+body{
+    background: #242424;
+    color: white;
+}
+#tittle{
+text-align: center;
+    padding: 2%;
+}
+.tittle-name{
+    text-align: center;
+    color: #df1f32;
+}
+.description{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    display: flex;
+    top: 0;
+}
+#content{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.img-hero{
+    position: inherit;
+    height: 400px;
+    border-radius: 100%;
+}
+.img-hero:hover{
+    border-radius: 5%;
+}
